@@ -1,0 +1,25 @@
+section {
+    height: auto;
+    width: auto;
+    padding: 0 calc(50% - 400px);
+}
+
+.bugReport {
+    border: 1px solid black;
+    background-color: antiquewhite;
+    box-shadow: 1px 2px 3px;
+    padding: 30px;
+}
+
+#mainTitle {
+    margin-left: 300px;
+}
+
+#header, #mainTitle {
+    font-size: large;
+    font-weight: bold;
+}
+
+.severity, .priority {
+    color: red;
+}

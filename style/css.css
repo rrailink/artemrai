@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Tinos&display=swap');
+
+body {
+    background-color: black;
+}
+
+section {
+    background: repeating-linear-gradient(
+        to right,
+        #1c1b34,
+        #1d1c27 20px);
+    height: auto;
+    width: auto;
+    padding: 0 calc(50% - 400px);
+    border-radius: 5px;   
+}
+
+.logo {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding-top: 10px;
+}
+
+.bioText {
+    font-size: large;
+    font-family: 'Asap', sans-serif;
+}
+
+.titleText {
+    font-family: 'DM Serif Display', serif;
+    padding-top: 10px;
+    font-size: xx-large;
+    color: white;
+
+    text-shadow:
+      0 0 1px #fff,
+      0 0 2px #fff,
+      0 0 5px #fff,
+      0 0 11px rgb(107, 216, 255),
+      0 0 20px rgb(70, 176, 195),
+      0 0 30px rgb(141, 227, 210),
+      0 0 55px rgb(57, 123, 222),
+      0 0 80px rgb(33, 57, 153);
+}
+
+.what {
+    padding-top: 150px;
+    font-family: 'Tinos', serif;
+    color: white;
+    font-size: small;
+    text-align: center;
+
+    border-bottom: 5px solid rgb(140, 121, 147);
+    border-radius: 2%;
+}
+
+.list {
+    color: azure;
+}
+
+.mainText {
+    font-size: x-large;
+    color: aqua;
+}
+
+.tool {
+    padding-top: 40px;
+}
+
+.tool, .portfolio {
+    border-bottom: 5px solid rgb(140, 121, 147);
+    border-radius: 2%;
+}
+
+.button {
+    height: 42px;
+	border: none;
+	background: #48b0f7;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+}
+
+@media screen and (min-width: 300px){
+    a.button {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+.button:hover {
+    height: 49px;
+	font-size: 22px;
+	background: #219c2f;
+}
+
+.tools {
+    border: none;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;   
+}
+
+.tools:hover {
+    width: 79px;
+    height: 79px;
+	font-size: 22px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;  
+    white-space: normal;
+    padding: 80px;
+}
+
+.contactIcon {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+	transition: all 500ms ease; 
+}
+
+.contactIcon:hover {
+    width: 32px;
+    height: 32px;
+}
+
+.aIcon {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;  
+    white-space: normal;
+    padding: 60px;
+}

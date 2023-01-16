@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bugReportPromoCode</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <section>
+
+        <div class="description">
+            Моделируем ситуацию:<br> 
+            Я тестирую функционал промокода на сайте веб магазина.<br> 
+            1. Нажать на любой товар - Откроется окно товара<br>
+            2. Нажать на кнопку "Положить в корзину" - В корзины появится, выбранный товар. Кнопка "Положить в корзину" изменится на "Перейти в корзину"<br>
+            3. Нажать на кнопку "Перейти в корзину" - Откроется окно "Корзина"<br>
+            4. Зафиксировать цену товара - цена товара 499 руб.<br>
+            5. В поле "Введите промокод" ввести промокод "prom20" - В поле "Введите промокод" появится, введененное значение<br>
+            6. Под полем "Введите промокод" нажать на кнопку "Применить промокод" - Цена товара не изменилась 
+        </div>
+
+
+        <div class="bugReport">
+
+            <span id="mainTitle">Баг-репорт:</span><br>
+
+            [bug][web][test]<br>
+
+            <span id="header">Описание:</span><br>
+            При использовании промокода "prom20", на экране цена товара не меняется.<br>
+
+            <span id="header">Severity - <span class="severity">Major</span></span><br>
+
+            <span id="header">Priority - <span class="priority">High</span></span><br>
+     
+            <span id="header">Номер версии:</span><br>
+            u1prc2prod<br>
+
+            <span id="header">Статус:</span><br>
+            In testing<br>
+
+            <span id="header">Автор баг-репорта:</span><br>
+            Рай Артем(QA)<br>
+
+            <span id="header">На кого назначен:</span><br>
+            Рай Артем(DevOps)<br>
+
+            <span id="header">Окружение:</span><br>
+            Баг зафиксировал на:<br>
+            • Microsoft Windows 11(x64) - Google Chrome 106.0.5249.119;<br>
+            • Microsoft Windows 11(x64) - Microsoft Edge 108.0.1462.76;<br>
+            • Microsoft Windows 11(x64) - Mozilla Firefox 108.0.2;<br>
+            • IOS 16.2 - Safari 15.3.<br>
+
+            <span id="header">Предусловие:</span><br>
+            В корзине лежит один товар с ценой 499 руб.<br>
+
+            <span id="header">Шаги воспроизведения:</span><br>
+            1. В поле "Введите промокод" ввести промокод "prom20"<br>
+            2. Под полем "Введите промокод" нажать на кнопку "Применить промокод"<br>
+    
+            <span id="header">Фактический результат:</span><br>
+            Цена осталась 499 руб.<br>
+        
+            <span id="header">Ожидаемый результат:</span><br>
+            Цена изменится на 400 руб.<br>
+    
+            <span id="header">Прикрепленные файлы:</span><br>
+            Endpoint, логи, скриншоты, записи экрана, аналитика.
+    </section>
+    
+</body>
+</html>

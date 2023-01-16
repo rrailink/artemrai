@@ -1,0 +1,72 @@
+/* Задаем стиль всему объекту */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+/* Задаем стиль всему телу */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#000000, #4b4b4b);
+}
+/* Задаем стиль телу калькулятора */
+.calculatorBody {
+    width: 350px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 0 15px #838383;
+}
+/* Задаем стиль дисплею */
+input#screen {
+    height: 60px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: 1px solid #e1e7ea;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    background: linear-gradient(#d1dce0, #dfe6e9);
+}
+/* Задаем стиль всем кнопкам */
+form .buttons {
+    width: 300px;
+    margin: 10px 25px 0 25px;
+    padding: 10px 0;
+}
+
+input.button {
+    width: 58px;
+    height: 55px;
+    margin: 5px;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 30px;
+    border: 1px solid #d9d9d9;
+    background: linear-gradient(#d9d9d9, #bfbfbf);
+}
+/* Создаем эффект на кнопках */
+input.button:hover {
+    transition: .5s;
+    background: linear-gradient(#5f5d5d, #d9d9d9);
+}
+/* Задаем стиль снопке AC */
+input.clear {
+    background: #ff1a1a;
+    border: 1px solid #cc0000;
+    color: white;
+}
+/* Задаем стиль кнопке = */
+input.result {
+    width: 275px;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+}
